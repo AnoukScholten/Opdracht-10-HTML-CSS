@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact</title>
+    </head>
+
+    <body>
+     <header>
+        <h1>Contactformulier recepten</h1>
+     </header>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+               <label>Naam:<input type="text" name="name" /></label>
+            </p>
+            <p>
+               <label>E-mail: <input type="email" name="email" /></label>
+            </p>
+            <p>
+               <label>Telefoonnummer: <input type="tel" name="tel"/></label>
+            </p>
+            <p>
+                <label>Leeftijd:<input type="number" name="number"/></label>
+            </p>
+            <p>
+                <label>Geboortedatum:<input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Geslacht:
+                <br>
+                <input type="radio" id="man" name="radio" value="man">
+                <label for="id">man</label><br>
+                <input type="radio" id="vrouw" name="radio" value="vrouw">
+                <label for="css">vrouw</label><br>
+                <input type="radio" id="doet er niet toe" name="radio" value="doet er niet toe">
+                <label for="javascript">doet er niet toe</label>
+                </label>   
+             </p>
+
+             <p>
+                <label>favoriete keuken (meerder opties mogelijk):
+                <br>
+                <input type="checkbox" id="keuken1" name="keuken1" value="Frans">
+                <label for="keuken1"> Frans</label><br>
+                <input type="checkbox" id="keuken2" name="keuken2" value="Italiaans">
+                <label for="keuken2"> Italiaans</label><br>
+                <input type="checkbox" id="keuken3" name="keuken3" value="Spaans">
+                <label for="keuken3">Spaans</label><br>
+                <input type="checkbox" id="keuken4" name="keuken4" value="Arabisch">
+                <label for="keuken4"> Arabisch</label>
+                </label>
+            </p>
+            <p>
+            <label for="favcolor">Selecteer je favoriete kleur keukenschort:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            </p>
+            <p>
+               <label>Biographie:<textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label for="myfile">Upload je recept:</label>
+                <input type="file" id="myfile" name="myfile">
+            </p>
+            <p>
+                <label for="websitelink">Websitelink voor het recept</label>
+                <input type="url" id="websitelink" name="websitelink">
+            </p>
+            <p>
+               <button type="submit">verzenden</button>
+            </p>
+            <p>
+               <button type="reset">resetten</button>
+            </P>
+          </form>  
+    </body>
+</html>
